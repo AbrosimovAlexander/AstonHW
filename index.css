@@ -59,3 +59,25 @@ body {
   background-color: aqua;
 }
 
+.output {
+  min-height: 100px;
+  background-color: rgba(0, 0, 0, 0.75);
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-around;
+  flex-direction: column;
+  padding: 10px;
+  word-wrap: break-word;
+  word-break: break-all;
+}
+
+.output .previous-operand {
+  color: rgba(255, 255, 255, 0.75);
+  font-size: 30px;
+}
+
+.output .current-operand {
+  color: white;
+  font-size: 30px;
+}
+
